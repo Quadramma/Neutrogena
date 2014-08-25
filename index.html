@@ -1,0 +1,348 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Neutrogena</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="neutrogena">
+    <meta name="author" content="Neutrogena">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="cleartype" content="on">
+    <link rel="shortcut icon"   href="/favicon.ico">
+    <link rel="stylesheet"      href="css/jquery.mobile-1.4.0.min.css" />
+    <link rel="stylesheet"      href="css/style.css"          />
+    <script src="lib/jquery-2.0.3.min.js"></script>    
+    <script src="lib/jquery.mobile-1.4.0.min.js"></script>    
+</head>
+<body>
+
+<script type="text/javascript">
+    $(function(){
+        $(".closeBtn").on("click",function(){
+            $("video").each(function(index,video){
+                video.pause();
+                video.currentTime = 0;
+            });
+        });
+    });
+</script>
+
+    <div data-role="page" id="page-home">  
+
+    <div data-role="popup" id="video1"  data-dismissible='false' data-overlay-theme="a" data-theme="d" data-tolerance="15,15" class="ui-content">
+        <video width="497" height="298" controls="controls" >
+            <source src="video/NEUTRO_BRAVE_20S_FINAL_16.12.13.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+        </video>
+         <a href="#"  data-rel="back" class="closeBtn ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+    </div>
+
+     <div data-role="popup" id="video2"  data-dismissible='false' data-overlay-theme="a" data-theme="d" data-tolerance="15,15" class="ui-content">
+        <video width="497" height="298" controls="controls" >
+            <source src="video/Neutrogena_T_Gel_Game_2011_ddb_jjtg419_020_yahoo.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+        </video>
+         <a href="#"  data-rel="back" class="closeBtn ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+    </div>
+
+     <div data-role="popup" id="video3" data-dismissible='false' data-overlay-theme="a" data-theme="d" data-tolerance="15,15" class="ui-content">
+        <video width="497" height="298" controls="controls" >
+            <source src="video/Pore__Shine_Final_Copy.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+        </video>
+         <a href="#"  data-rel="back" class="closeBtn ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+    </div>
+
+
+        <div class="content" data-role="content" 
+            style="background:url('home.jpg') no-repeat;  height:612px;">  
+
+            <a href="#page-home"  data-transition="slide" >
+            <div class="button-home"></div></a>
+
+            <a  href="#sidebar1" ><div class="button-sidebar"></div></a>  
+            <a class="tec1" href="#page-p1-tec"  data-transition="slide" ><div class="button-tec tec1" style="left: 46px;"></div></a>
+            <a href="#page-p1-pro"  data-transition="slide" ><div class="button-pro pro1" style="left: 46px;"></div></a>
+            <a href="#page-p2-tec"  data-transition="slide" ><div class="button-tec tec2" style="left: 310px;"></div></a>
+            <a href="#page-p2-pro"  data-transition="slide" ><div class="button-pro pro2" style="left: 310px;"></div></a>
+            <a href="#page-p3-tec"  data-transition="slide" ><div class="button-tec tec3" style="left: 567px;"></div></a>
+            <a class="pro3" href="#page-p3-pro"  data-transition="slide" ><div class="button-pro pro3" style="left: 567px;"></div></a>
+
+            <a href="#video1" class="video1Link" data-rel="popup" data-position-to="window" 
+            data-transition="fade"><div></div></a>
+            <a href="#video3" class="video2Link" data-rel="popup" data-position-to="window" 
+            data-transition="fade"><div></div></a>
+            <a href="#video2" class="video3Link" data-rel="popup" data-position-to="window"  
+            data-transition="fade"><div></div></a>
+              
+
+        </div>  
+        <div class="panel left sidebar" data-role="panel" data-position="left" data-display="push" id="sidebar1">
+			<img src="img/MenuTitle.jpg" alt= "Neutrogena Products" height="51" width="249">		
+            <ul>  
+                <li class="Selected"><a href="#page-home"   data-transition="slide" >HOME</a></li>
+                <li><a href="#page-p1-tec"  data-transition="slide">NORWEGIAN FORMULA TECHNOLOGY</a></li>
+                <li><a href="#page-p1-pro"  data-transition="slide">NORWEGIAN FORMULA PRODUCTS</a></li>
+                <li><a href="#page-p2-tec"  data-transition="slide">VISIBLY CLEAR TECHNOLOGY</a></li>
+                <li><a href="#page-p2-pro"  data-transition="slide">VISIBLY CLEAR PRODUCTS</a></li>
+                <li><a href="#page-p3-tec"  data-transition="slide">T/GEL TECHNOLOGY</a></li>
+                <li><a href="#page-p3-pro"  data-transition="slide">T/GEL PRODUCTS</a></li>
+            </ul>  
+        </div>  
+    </div>  
+    <!-- ************************************************************************************ -->
+    <!-- ************************************************************************************ -->
+    <!-- ********************************** PRODUCTO 1  *************************************************** -->
+	
+    <div data-role="page" id="page-p1-pro" data-title="Neutrogena | Pro">
+
+
+
+    <div data-role="popup" id="p1readmore1" class="popup" data-corners="false">
+        <a href="#" data-rel="back" class=""></a>
+        <img class="popphoto" src="p1_readmore1.png" 
+        style="max-height:512px;" alt="">
+    </div>
+
+        <div class="content" data-role="content" 
+            style="background:url('p1_pro.jpg') no-repeat;  height:612px;">  
+
+
+            <a href="#page-home"  data-transition="slide" >
+            <div class="button-home"></div></a>
+        
+            <a      href="#sidebar2" ><div class="button-sidebar"></div></a>   
+            <a      href="#page-p1-tec"   data-transition="slide"  ><div class="button-pro-top tec1"></div></a>   
+
+            <a href="#p1readmore1" class="p1ReadMoreLinkRight" data-rel="popup" data-position-to="window" 
+            data-transition="fade"><div></div></a>
+
+
+
+        </div>  
+        <div class="panel left sidebar" data-role="panel" data-position="left" data-display="push" id="sidebar2"> 
+			<img src="img/MenuTitle.jpg" alt= "Neutrogena Products" height="51" width="249">		
+            <ul>  
+                <li class="Selected"><a href="#page-home"   data-transition="slide" >HOME</a></li>
+                <li><a href="#page-p1-tec"  data-transition="slide">NORWEGIAN FORMULA TECHNOLOGY</a></li>
+                <li><a href="#page-p1-pro"  data-transition="slide">NORWEGIAN FORMULA PRODUCTS</a></li>
+                <li><a href="#page-p2-tec"  data-transition="slide">VISIBLY CLEAR TECHNOLOGY</a></li>
+                <li><a href="#page-p2-pro"  data-transition="slide">VISIBLY CLEAR PRODUCTS</a></li>
+                <li><a href="#page-p3-tec"  data-transition="slide">T/GEL TECHNOLOGY</a></li>
+                <li><a href="#page-p3-pro"  data-transition="slide">T/GEL PRODUCTS</a></li>
+            </ul>  
+        </div>  
+    </div><!-- page -->
+   
+    <div data-role="page" id="page-p1-tec" data-title="Neutrogena | Tec">
+        <div class="content" data-role="content" 
+            style="background:url('p1_tec.jpg') no-repeat;  height:612px;">  
+
+
+            <a href="#page-home"  data-transition="slide" >
+            <div class="button-home"></div></a>
+        
+            <a      href="#sidebar3" ><div class="button-sidebar"></div></a>  
+            <a      href="#page-p1-pro"   data-transition="slide"  ><div class="button-pro-top pro1"></div></a>   
+
+        </div>  
+        <div class="panel left sidebar" data-role="panel" data-position="left" data-display="push" id="sidebar3">  
+			<img src="img/MenuTitle.jpg" alt= "Neutrogena Products" height="51" width="249">
+            <ul>  
+                <li class="Selected"><a id="menuHome" class="home" href="#page-home"   data-transition="slide" >HOME</a></li>
+                <li><a class="p1tec" href="#page-p1-tec"  data-transition="slide">NORWEGIAN FORMULA TECHNOLOGY</a></li>
+                <li><a href="#page-p1-pro"  data-transition="slide">NORWEGIAN FORMULA PRODUCTS</a></li>
+                <li><a href="#page-p2-tec"  data-transition="slide">VISIBLY CLEAR TECHNOLOGY</a></li>
+                <li><a href="#page-p2-pro"  data-transition="slide">VISIBLY CLEAR PRODUCTS</a></li>
+                <li><a href="#page-p3-tec"  data-transition="slide">T/GEL TECHNOLOGY</a></li>
+                <li><a href="#page-p3-pro"  data-transition="slide">T/GEL PRODUCTS</a></li>
+            </ul>  
+        </div>  
+    </div><!-- page -->
+     <!-- ************************************************************************************ -->
+
+
+
+
+
+
+    <!-- ******************************* PRODUCTO 2 **************************************** -->
+	<div data-role="page" id="page-p2-pro" data-title="Neutrogena | Pro">
+        <div class="content" data-role="content" 
+            style="background:url('p2_pro.jpg') no-repeat;  height:612px;">  
+
+
+            <a href="#page-home"  data-transition="slide" >
+            <div class="button-home"></div></a>
+        
+            <a      href="#sidebar4" ><div class="button-sidebar"></div></a>  
+            <a      href="#page-p2-tec"   data-transition="slide"  ><div class="button-pro-top tec2"></div></a>   
+
+        </div>  
+        <div class="panel left sidebar" data-role="panel" data-position="left" data-display="push" id="sidebar4">  
+		<img src="img/MenuTitle.jpg" alt= "Neutrogena Products" height="51" width="249">
+            <ul>  
+                <li class="Selected"><a href="#page-home"   data-transition="slide" >HOME</a></li>
+                <li><a href="#page-p1-tec"  data-transition="slide">NORWEGIAN FORMULA TECHNOLOGY</a></li>
+                <li><a href="#page-p1-pro"  data-transition="slide">NORWEGIAN FORMULA PRODUCTS</a></li>
+                <li><a href="#page-p2-tec"  data-transition="slide">VISIBLY CLEAR TECHNOLOGY</a></li>
+                <li><a href="#page-p2-pro"  data-transition="slide">VISIBLY CLEAR PRODUCTS</a></li>
+                <li><a href="#page-p3-tec"  data-transition="slide">T/GEL TECHNOLOGY</a></li>
+                <li><a href="#page-p3-pro"  data-transition="slide">T/GEL PRODUCTS</a></li>
+            </ul>  
+        </div> 
+    </div><!-- page -->
+
+
+    <div data-role="page" id="page-p2-tec" data-title="Neutrogena | Tec">
+        <div class="content" data-role="content" 
+            style="background:url('p2_tec.jpg') no-repeat;  height:612px;">  
+
+
+            <a href="#page-home"  data-transition="slide" >
+            <div class="button-home"></div></a>
+        
+            <a      href="#sidebar5" ><div class="button-sidebar"></div></a>  
+            <a      href="#page-p2-pro"   data-transition="slide"  ><div class="button-pro-top pro2"></div></a>   
+
+        </div>  
+        <div class="panel left sidebar" data-role="panel" data-position="left" data-display="push" id="sidebar5"> 
+		<img src="img/MenuTitle.jpg" alt= "Neutrogena Products" height="51" width="249">		
+            <ul>  
+                <li class="Selected"><a href="#page-home"   data-transition="slide" >HOME</a></li>
+                <li><a href="#page-p1-tec"  data-transition="slide">NORWEGIAN FORMULA TECHNOLOGY</a></li>
+                <li><a href="#page-p1-pro"  data-transition="slide">NORWEGIAN FORMULA PRODUCTS</a></li>
+                <li><a href="#page-p2-tec"  data-transition="slide">VISIBLY CLEAR TECHNOLOGY</a></li>
+                <li><a href="#page-p2-pro"  data-transition="slide">VISIBLY CLEAR PRODUCTS</a></li>
+                <li><a href="#page-p3-tec"  data-transition="slide">T/GEL TECHNOLOGY</a></li>
+                <li><a href="#page-p3-pro"  data-transition="slide">T/GEL PRODUCTS</a></li>
+            </ul>  
+        </div> 
+    </div><!-- page -->
+     <!-- ************************************************************************************ -->
+    <!-- ******************************* PRODUCTO 3 **************************************** -->
+	<div data-role="page" id="page-p3-pro" data-title="Neutrogena | Pro">
+
+     <div data-role="popup" id="p3readmore1" class="popup" data-corners="false">
+        <a href="#" data-rel="back" class=""></a>
+        <a href="#p3readmore1Info" class="p3ReadMoreInfoPopupLinkLeft" data-transition="slide"><div></div></a>
+        <img class="popphoto" src="p3_readmore1.png" 
+        style="max-height:512px;" alt="">
+    </div>
+    <div data-role="popup" id="p3readmore2" class="popup" data-corners="false">
+        <a href="#" data-rel="back" class=""></a>
+        <img class="popphoto" src="p3_readmore2.png" 
+        style="max-height:512px;" alt="">
+    </div>
+
+
+        <div class="content" data-role="content" 
+            style="background:url('p3_pro.jpg') no-repeat;  height:612px;">  
+
+
+            <a href="#page-home"  data-transition="slide" >
+            <div class="button-home"></div></a>
+        
+            <a      href="#sidebar6" ><div class="button-sidebar"></div></a>  
+            <a      href="#page-p3-tec"   data-transition="slide"  ><div class="button-pro-top tec3"></div></a>   
+
+               <a href="#p3readmore1" class="p3ReadMoreLinkLeft" data-rel="popup" data-position-to="window" 
+            data-transition="fade"><div></div></a>
+
+            <a href="#p3readmore1Info" class="p3ReadMoreInfoLinkLeft" data-transition="slide"><div></div></a>
+
+              <a href="#p3readmore2" class="p3ReadMoreLinkRight" data-rel="popup" data-position-to="window" 
+            data-transition="fade"><div></div></a>
+
+        </div>  
+        <div class="panel left sidebar" data-role="panel" data-position="left" data-display="push" id="sidebar6">  
+		<img src="img/MenuTitle.jpg" alt= "Neutrogena Products" height="51" width="249">
+            <ul>  
+                <li class="Selected"><a href="#page-home"   data-transition="slide" >HOME</a></li>
+                <li><a href="#page-p1-tec"  data-transition="slide">NORWEGIAN FORMULA TECHNOLOGY</a></li>
+                <li><a href="#page-p1-pro"  data-transition="slide">NORWEGIAN FORMULA PRODUCTS</a></li>
+                <li><a href="#page-p2-tec"  data-transition="slide">VISIBLY CLEAR TECHNOLOGY</a></li>
+                <li><a href="#page-p2-pro"  data-transition="slide">VISIBLY CLEAR PRODUCTS</a></li>
+                <li><a href="#page-p3-tec"  data-transition="slide">T/GEL TECHNOLOGY</a></li>
+                <li><a href="#page-p3-pro"  data-transition="slide">T/GEL PRODUCTS</a></li>
+            </ul>  
+        </div> 
+    </div><!-- page -->
+
+
+
+
+
+
+
+        <div data-role="page" id="p3readmore1Info" data-title="Neutrogena | Tec">
+        <div class="content" data-role="content" 
+            style="background:url('p3_info.jpg') no-repeat;  height:612px;">  
+
+            
+            <a href="#page-home"  data-transition="slide" >
+            <div class="button-home"></div></a>
+        
+            <a      href="#sidebar7" ><div class="button-sidebar"></div></a>  
+            <a      href="#page-p3-pro"   data-transition="slide"  ><div class="button-pro-top pro3"></div></a>   
+
+        </div>  
+        <div class="panel left sidebar" data-role="panel" data-position="left" data-display="push" id="sidebar7"> 
+            <img src="img/MenuTitle.jpg" alt= "Neutrogena Products" height="51" width="249">        
+            <ul>  
+                <li class="Selected"><a href="#page-home"   data-transition="slide" >HOME</a></li>
+                <li><a href="#page-p1-tec"  data-transition="slide">NORWEGIAN FORMULA TECHNOLOGY</a></li>
+                <li><a href="#page-p1-pro"  data-transition="slide">NORWEGIAN FORMULA PRODUCTS</a></li>
+                <li><a href="#page-p2-tec"  data-transition="slide">VISIBLY CLEAR TECHNOLOGY</a></li>
+                <li><a href="#page-p2-pro"  data-transition="slide">VISIBLY CLEAR PRODUCTS</a></li>
+                <li><a href="#page-p3-tec"  data-transition="slide">T/GEL TECHNOLOGY</a></li>
+                <li><a href="#page-p3-pro"  data-transition="slide">T/GEL PRODUCTS</a></li>
+            </ul>  
+        </div>  
+    </div><!-- page -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <div data-role="page" id="page-p3-tec" data-title="Neutrogena | Tec">
+        <div class="content" data-role="content" 
+            style="background:url('p3_tec.jpg') no-repeat;  height:612px;">  
+
+            
+            <a href="#page-home"  data-transition="slide" >
+            <div class="button-home"></div></a>
+        
+            <a      href="#sidebar7" ><div class="button-sidebar"></div></a>  
+            <a      href="#page-p3-pro"   data-transition="slide"  ><div class="button-pro-top pro3"></div></a>   
+            <a href="#p3readmore1Info" class="p3ReadMoreInfoLinkLeft" data-transition="slide"><div></div></a>
+
+        </div>  
+        <div class="panel left sidebar" data-role="panel" data-position="left" data-display="push" id="sidebar7"> 
+			<img src="img/MenuTitle.jpg" alt= "Neutrogena Products" height="51" width="249">		
+            <ul>  
+                <li class="Selected"><a href="#page-home"   data-transition="slide" >HOME</a></li>
+                <li><a href="#page-p1-tec"  data-transition="slide">NORWEGIAN FORMULA TECHNOLOGY</a></li>
+                <li><a href="#page-p1-pro"  data-transition="slide">NORWEGIAN FORMULA PRODUCTS</a></li>
+                <li><a href="#page-p2-tec"  data-transition="slide">VISIBLY CLEAR TECHNOLOGY</a></li>
+                <li><a href="#page-p2-pro"  data-transition="slide">VISIBLY CLEAR PRODUCTS</a></li>
+                <li><a href="#page-p3-tec"  data-transition="slide">T/GEL TECHNOLOGY</a></li>
+                <li><a href="#page-p3-pro"  data-transition="slide">T/GEL PRODUCTS</a></li>
+            </ul>  
+        </div>  
+    </div><!-- page -->
+    <!-- ************************************************************************************ -->
+    <!-- ************************************************************************************ -->
+    <!-- ************************************************************************************ -->
+   
+
+</body>
+</html>
+

@@ -1,0 +1,236 @@
+
+.popup{
+	background: transparent !important;
+	border-color: transparent !important;
+	border: 0 !important;
+	-webkit-box-shadow: 0 0 0 rgba(0,0,0,0) !important;
+	-moz-box-shadow: 0 0 0 rgba(0,0,0,.6) !important;
+	box-shadow: 0 0 0 rgba(0,0,0,0) !important;
+	
+}
+
+.popup a{
+	
+	width: 70px;
+	height: 32px;
+	position: absolute;
+	top: 16px;
+	left: 30px;
+}
+
+#video1, #video2, #video3{
+	
+}
+.video1Link{
+	position: absolute;
+left: 46px;
+top: 452px;
+}
+.video1Link div{
+	width: 181px;
+height: 119px;
+}
+.video1Link div:hover{
+	background-color: black;
+	opacity:0.5;
+}
+.video2Link{
+	position: absolute;
+	left: 310px;
+	top: 452px;
+}
+.video2Link div{
+	width: 180px;
+	height: 119px;
+}
+.video2Link div:hover{
+	background-color: black;
+	opacity:0.5;
+}
+.video3Link{
+	position: absolute;
+	left: 568px;
+	top: 452px;
+}
+.video3Link div{
+	width: 180px;
+	height: 120px;
+}
+.video3Link div:hover{
+	background-color: black;
+	opacity:0.5;
+
+}
+
+
+.p1ReadMoreLinkRight{
+	position: relative;
+left: 630px;
+top: 228px;
+}
+.p1ReadMoreLinkRight div{
+	width: 330px;
+height: 176px;
+}
+
+
+.p3ReadMoreLinkLeft{
+	position: absolute;
+left: 58px;
+top: 228px;
+}
+.p3ReadMoreLinkLeft div{
+	width: 123px;
+height: 316px;
+}
+
+.p3ReadMoreInfoLinkLeft{
+	position: absolute;
+left: 58px;
+top: 557px;
+}
+.p3ReadMoreInfoLinkLeft div{
+	width: 123px;
+height: 50px;
+}
+
+a.p3ReadMoreInfoPopupLinkLeft{
+	width: 70px;
+height: 32px;
+position: absolute;
+top: 325px;
+left: 490px;
+}
+.p3ReadMoreInfoPopupLinkLeft div{
+	width: 130px;
+height: 54px;
+}
+
+
+
+.p3ReadMoreLinkRight{
+	position: absolute;
+left: 611px;
+top: 189px;
+}
+.p3ReadMoreLinkRight div{
+	width: 121px;
+height: 320px;
+}
+
+
+.sidebar {
+	background: black !important;
+}
+
+.sidebar ul{
+/*
+	background: url("../img/MenuBase.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	*/
+	height: 316px;
+	padding-top: 20px;
+	width: 100%;
+	padding-left: 0px;
+}
+
+.sidebar ul li{
+	color: white !important;
+	text-decoration: none;
+	text-shadow: none;
+	display: block;
+	font-size: 12px;
+	width: 100%;
+	height: 32px;
+	margin-top: 1px;
+}
+.sidebar ul li a {
+	color:white !important;
+	text-decoration: none;
+}
+.sidebar ul li a:hover {
+	color:grey !important;
+	text-decoration: none;
+}
+
+.button-pro-top{
+	width: 180px;
+	height: 30px;
+	position: absolute;
+	top: 10px;
+	left: 621px;
+	
+}
+
+.button-home{
+	width: 150px;
+	height: 33px;
+	position: absolute;
+	
+	top: 13px;
+	left: 75px;
+}
+
+.button-sidebar{
+	width: 30px;
+	height: 23px;
+	position: absolute;
+	top: 13px;
+	left: 13px;
+}
+.button-tec{
+	width: 180px;
+	height: 30px;
+	position: absolute;
+	top: 372px;
+
+	
+}
+.button-pro{
+	width: 180px;
+	height: 30px;
+	position: absolute;
+	top: 410px;
+	
+}
+
+.pro1:hover{
+	background:url(../img/hover/1NeutProd.png);
+}
+.tec1:hover{
+	background:url(../img/hover/2NeutTech.png);
+}
+.pro2:hover{
+	background:url(../img/hover/3ActProd.png);
+}
+.tec2:hover{
+	background:url(../img/hover/4ActTech.png);
+}
+.pro3:hover{
+	background:url(../img/hover/5TgelProd.png);
+}
+.tec3:hover{
+	background:url(../img/hover/6TgelTech.png);
+}
+
+.sidebar ul li.home:hover{
+	background:url(../img/menuhover/1HOME.jpg);	
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.sidebar ul li.p1tec:hover{
+	background:url(../img/menuhover/3NORTECH.jpg);	
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+page-p1-tec:hover{
+	
+}
+
+
+
+
+
+
+
